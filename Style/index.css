@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+
+}
+#navbar{
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 100%;
+    background-color: gray;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 200px;
+    grid-row: inherit;
+    grid-template-columns: auto;
+    gap: 20px;
+    text-align: center;
+}
+#navbar>div{
+    border:1px solid black;
+    margin: 10px;
+}
