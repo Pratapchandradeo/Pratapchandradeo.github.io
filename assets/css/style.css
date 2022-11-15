@@ -481,6 +481,38 @@ section .container {
   background-color: #f9004d;
 }
 
+/* statistics git hub  */
+.git-s
+{
+  
+  display: flex;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+}
+
+@media (max-width: 768px) {
+  .git-s
+{
+  text-align: center;
+  display: grid;
+  grid-template-columns:1;
+  grid-template-rows: auto;
+  /* border: 1px solid white; */
+  
+}
+.git-s img{
+  width: 100%;
+}
+.git-s2{
+  margin: auto;
+  width: 80%;
+  /* border: 1px solid white; */
+}
+.git-s2 img{
+  width: 100%;
+}
+}
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
@@ -596,6 +628,9 @@ section .container {
     margin: 30px 10px;
   }
 }
+/* temp project */
+
+
 
 /*--------------------------------------------------------------
 # Resume
@@ -741,8 +776,11 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
+
   margin-bottom: 30px;
+  /* border: 1px solid #f9004d; */
 }
 
 .portfolio #portfolio-flters {
@@ -782,10 +820,11 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  /* border: 1px solid #f9004d; */
   background: rgba(0, 0, 0, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+/* .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -796,51 +835,21 @@ section .container {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+} */
+/* ///////////////////////////////////////////////////////////// */
+.portfolio .portfolio-info {
+ margin-top: 20px;
+ border-top: 1px solid #f9004d;
+ border-bottom:1px solid #f9004d;
+ font-size: 14px;
+ padding: 10px;
+ line-height: normal;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
 
-.portfolio .portfolio-wrap .portfolio-info::after {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
+
+
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
