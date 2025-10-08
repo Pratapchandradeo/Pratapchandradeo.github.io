@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Recruitment Portal - Pratap Chandra Deo</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="description" content="NIT Warangal Recruitment Portal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../assets/css/project.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container--main">
+      <div id="topbar">
+        <a href="../index.html">&#x2190; Go Back</a>
+        <section id="theme--toggle">
+          <p>
+            <button id="themeLight" class="themeBtn" style="background-color: white;">Light</button>
+            <button id="themeDark" class="themeBtn">Dark</button>
+          </p>
+        </section>
+      </div>
+      <h1>Recruitment Portal - NIT Warangal</h1>
+
+      <img id="project-pic" src="../assets/img/recruitment-portal.png" alt="Recruitment Portal Project" />
+
+      <ul>
+        <li><a href="https://careers.nitw.ac.in/register/" target="_blank">Live Website</a></li>
+      </ul>
+
+      <p>Designed and developed a comprehensive Recruitment Portal to streamline faculty and staff recruitment processes at NIT Warangal, managing both the back-end and front-end for seamless operation.</p>
+
+      <h3>My Responsibilities</h3>
+      <ul>
+        <li>Spearheaded the design and development of the portal using Python (Django), PostgreSQL, HTML, and Crispy Forms, creating a robust and scalable architecture</li>
+        <li>Built dynamic forms to capture faculty and staff applications, ensuring data validation and a user-friendly interface</li>
+        <li>Developed secure back-end modules to process and store applicant data efficiently in PostgreSQL, enabling smooth data management</li>
+        <li>Implemented role-based access controls and authentication mechanisms to safeguard sensitive recruitment data</li>
+        <li>Integrated admin functionalities for HR/administrators to review, filter, and manage applications seamlessly</li>
+        <li>Collaborated with stakeholders to understand requirements and iteratively improved the application based on feedback</li>
+        <li>Ensured responsive UI and optimized queries for better performance and scalability</li>
+        <li>Documented APIs, workflows, and database structures to support future enhancements and integrations</li>
+      </ul>
+
+      <h3>Tech Stack</h3>
+      <ul>
+        <li><strong>Backend:</strong> Python3, Django, Django REST Framework</li>
+        <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Crispy Forms</li>
+        <li><strong>Database:</strong> PostgreSQL</li>
+        <li><strong>Authentication:</strong> Django Authentication System</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>Deployment:</strong> AWS EC2, RDS</li>
+      </ul>
+
+      <h3>Key Features</h3>
+      <ul>
+        <li>Multi-step application forms with validation</li>
+        <li>Role-based access control for different user types</li>
+        <li>Advanced search and filtering capabilities</li>
+        <li>Automated email notifications</li>
+        <li>Application status tracking</li>
+        <li>Reporting and analytics dashboard</li>
+        <li>Document upload and management</li>
+      </ul>
+
+      <p>The portal has significantly streamlined the recruitment process at NIT Warangal, reducing manual work and providing a centralized platform for managing all recruitment activities.</p>
+
+      <p>I would appreciate any feedback or welcome any questions you might have. You can find my contact information on the <a href="../index.html">homepage</a>.</p>
+
+      <a id="back--to-top" href="#">&#x2191; Go to Top</a>
+    </div>
+    <script>
+        // Theme toggle functionality
+        document.getElementById('themeLight').addEventListener('click', function() {
+            document.body.classList.remove('dark-mode');
+        });
+        
+        document.getElementById('themeDark').addEventListener('click', function() {
+            document.body.classList.add('dark-mode');
+        });
+    </script>
+  </body>
+</html>

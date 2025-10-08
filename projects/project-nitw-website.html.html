@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>NITW Website - Pratap Chandra Deo</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="description" content="NIT Warangal Website Development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../assets/css/project.css" rel="stylesheet">
+   
+  </head>
+  <body>
+    <div id="container--main">
+      <div id="topbar">
+        <a href="../index.html">&#x2190; Go Back</a>
+        <section id="theme--toggle">
+          <p>
+            <button id="themeLight" class="themeBtn" style="background-color: white;">Light</button>
+            <button id="themeDark" class="themeBtn">Dark</button>
+          </p>
+        </section>
+      </div>
+      <h1>NIT Warangal Website Development</h1>
+
+      <img id="project-pic" src="../assets/img/nitw-website.png" alt="NITW Website Project" />
+
+      <ul>
+        <li><a href="https://nitw.ac.in" target="_blank">Live Website</a></li>
+      </ul>
+
+      <p>Developed and currently managing the back-end, front-end, and admin panel for NIT Warangal's official website and associated applications, ensuring seamless user experience and operational efficiency.</p>
+
+      <h3>My Responsibilities</h3>
+      <ul>
+        <li>Spearheaded the design and development of three applications: one backend (Node.js) and two frontend applications (React), ensuring robust architecture and efficient workflows</li>
+        <li>Successfully managed the upgrade of the entire tech stack from Node.js 16 to Node.js 22.12 (LTS), resolving compatibility issues and enhancing performance</li>
+        <li>Designed and developed the admin panel, enabling efficient management of website content, user access, and other administrative functionalities</li>
+        <li>Collaborated with stakeholders to gather and analyze requirements, tailoring solutions to meet specific needs for both user-facing and administrative components</li>
+        <li>Implemented secure authentication and authorization protocols to ensure data protection and prevent unauthorized access across all applications</li>
+        <li>Conducted performance optimization and troubleshooting, resolving issues related to security, scalability, and functionality</li>
+        <li>Upgraded dependencies and ensured compatibility with modern frameworks and libraries, including React and related tools</li>
+        <li>Engaged with end-users to gather feedback, incorporating changes to improve user experience and meet evolving requirements</li>
+        <li>Documented all APIs and application features, enabling streamlined development, integration, and future scalability</li>
+      </ul>
+
+      <h3>Tech Stack</h3>
+      <ul>
+        <li><strong>Frontend:</strong> React.js, HTML5, CSS3, JavaScript (ES6+)</li>
+        <li><strong>Backend:</strong> Node.js (v22.12 LTS), Express.js</li>
+        <li><strong>Database:</strong> MongoDB</li>
+        <li><strong>Authentication:</strong> JWT, OAuth</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>Deployment:</strong> AWS EC2, S3, CloudFront</li>
+      </ul>
+
+      <p>The website serves as the primary digital presence for NIT Warangal, providing information to students, faculty, staff, and visitors while maintaining high standards of performance, security, and user experience.</p>
+
+      <p>I would appreciate any feedback or welcome any questions you might have. You can find my contact information on the <a href="../index.html">homepage</a>.</p>
+
+      <a id="back--to-top" href="#">&#x2191; Go to Top</a>
+    </div>
+    <script>
+        // Theme toggle functionality
+        document.getElementById('themeLight').addEventListener('click', function() {
+            document.body.classList.remove('dark-mode');
+        });
+        
+        document.getElementById('themeDark').addEventListener('click', function() {
+            document.body.classList.add('dark-mode');
+        });
+    </script>
+  </body>
+</html>

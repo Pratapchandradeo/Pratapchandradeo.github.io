@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Safe Line AI - Pratap Chandra Deo</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="description" content="Safe Line AI - Accident Prevention System" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../assets/css/project.css" rel="stylesheet">
+   </head>
+  <body>
+    <div id="container--main">
+      <div id="topbar">
+        <a href="../index.html">&#x2190; Go Back</a>
+        <section id="theme--toggle">
+          <p>
+            <button id="themeLight" class="themeBtn" style="background-color: white;">Light</button>
+            <button id="themeDark" class="themeBtn">Dark</button>
+          </p>
+        </section>
+      </div>
+      <h1>Safe Line AI - Accident Prevention System</h1>
+
+      <img id="project-pic" src="../assets/img/safe-line-ai.png.png" alt="Safe Line AI Project" />
+
+      <ul>
+        <li><a href="https://github.com/Pratapchandradeo/SafeLine" target="_blank">Source code</a></li>
+        <li><a href="https://drive.google.com/file/d/13h4jaRexTIN9nrc3MZ57HiQ_4CIdB9hb/view?usp=drive_link" target="_blank">Live Demo</a></li>
+      </ul>
+
+      <p>Safe Line AI is an advanced accident prevention system that leverages artificial intelligence to monitor driver behavior and road conditions in real-time. The system helps prevent accidents by detecting potential hazards and alerting drivers proactively.</p>
+
+      <h3>Key Features</h3>
+      <ul>
+        <li>Real-time driver fatigue detection using facial recognition</li>
+        <li>Road condition analysis and hazard detection</li>
+        <li>Instant alert system for potential collisions</li>
+        <li>Driver behavior monitoring and scoring</li>
+        <li>Cloud-based data analytics for pattern recognition</li>
+      </ul>
+
+      <h3>Tech Stack</h3>
+      <ul>
+        <li><strong>Frontend:</strong> React.js, TensorFlow.js, Chart.js</li>
+        <li><strong>Backend:</strong> Node.js, Express.js, Python (for AI models)</li>
+        <li><strong>Database:</strong> MongoDB, Redis (for caching)</li>
+        <li><strong>Cloud Services:</strong> AWS EC2, S3, Lambda, Rekognition</li>
+        <li><strong>Other Technologies:</strong> WebRTC, Socket.io, JWT Authentication</li>
+      </ul>
+
+      <p>The system can be deployed in various vehicles and integrated with existing telematics systems. It provides a comprehensive solution for fleet management companies, insurance providers, and individual vehicle owners looking to enhance road safety.</p>
+
+      <p>I would appreciate any feedback or welcome any questions you might have. You can find my contact information on the <a href="../index.html">homepage</a>.</p>
+
+      <a id="back--to-top" href="#">&#x2191; Go to Top</a>
+    </div>
+    <script>
+        // Theme toggle functionality
+        document.getElementById('themeLight').addEventListener('click', function() {
+            document.body.classList.remove('dark-mode');
+        });
+        
+        document.getElementById('themeDark').addEventListener('click', function() {
+            document.body.classList.add('dark-mode');
+        });
+    </script>
+  </body>
+</html>

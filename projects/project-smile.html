@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Smile ERP - Pratap Chandra Deo</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="description" content="Smile ERP System Application" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../assets/css/project.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container--main">
+      <div id="topbar">
+        <a href="../index.html">&#x2190; Go Back</a>
+        <section id="theme--toggle">
+          <p>
+            <button id="themeLight" class="themeBtn" style="background-color: white;">Light</button>
+            <button id="themeDark" class="themeBtn">Dark</button>
+          </p>
+        </section>
+      </div>
+      <h1>Smile - ERP System Application</h1>
+
+      <img id="project-pic" src="../assets/img/smile-erp.png" alt="Smile ERP Project" />
+
+      <ul>
+        <li><a href="https://erp.nitw.ac.in/erp/login" target="_blank">Live Website</a></li>
+      </ul>
+
+      <p>Smile is an internal ERP application developed for NIT Warangal to manage various administrative tasks across the institute. I contributed to the development and enhancement of this system, focusing on creating efficient modules that streamline institutional processes.</p>
+
+      <h3>My Contributions</h3>
+      <ul>
+        <li>Developed new modules to extend the application's functionality, ensuring they meet the specific operational needs of different departments</li>
+        <li>Regularly updated and improved existing modules based on user feedback and evolving requirements</li>
+        <li>Collaborated with various teams to gather requirements, analyze workflows, and deliver tailored solutions</li>
+        <li>Enhanced system efficiency and performance through optimized code and database queries</li>
+      </ul>
+
+      <h3>Tech Stack</h3>
+      <ul>
+        <li><strong>Backend:</strong> Java, Hibernate, Spring Framework</li>
+        <li><strong>Frontend:</strong> jQuery, AJAX, HTML, CSS</li>
+        <li><strong>Database:</strong> PostgreSQL</li>
+        <li><strong>Other Technologies:</strong> REST APIs, Maven, Git</li>
+      </ul>
+
+      <h3>Key Features Implemented</h3>
+      <ul>
+        <li>Student registration and management module</li>
+        <li>Faculty workload management system</li>
+        <li>Course allocation and scheduling</li>
+        <li>Examination management portal</li>
+        <li>Financial tracking and reporting</li>
+      </ul>
+
+      <p>The application has significantly improved task management efficiency within the institute, reducing manual work and providing real-time access to critical information for administrators and staff.</p>
+
+      <p>I would appreciate any feedback or welcome any questions you might have. You can find my contact information on the <a href="../index.html">homepage</a>.</p>
+
+      <a id="back--to-top" href="#">&#x2191; Go to Top</a>
+    </div>
+    <script>
+        // Theme toggle functionality
+        document.getElementById('themeLight').addEventListener('click', function() {
+            document.body.classList.remove('dark-mode');
+        });
+        
+        document.getElementById('themeDark').addEventListener('click', function() {
+            document.body.classList.add('dark-mode');
+        });
+    </script>
+  </body>
+</html>
